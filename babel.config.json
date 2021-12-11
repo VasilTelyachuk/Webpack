@@ -1,0 +1,3 @@
+{
+    "presets": ["@babel/preset-env"]
+  } // Настройки с сайта Babel для webpack
