@@ -27,14 +27,18 @@ module.exports = {
         use: "babel-loader",
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
-        //   "style-loader",
+          // "style-loader",
           MiniCssExtractPlugin.loader,
           "css-loader",
           "sass-loader",
         ],
       }, // $ говорит что файл должен заканчиваться на .js ,загрусчики применяються с права на лево
+      {
+        test: /\.hbs$/,
+        use: 'handlebars-loader',
+      }    
     ],
   },
   plugins: [

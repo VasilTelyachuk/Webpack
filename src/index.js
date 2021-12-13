@@ -1,4 +1,5 @@
-import value from "./js/a";
-import "./css/styles.scss";
+// import menuElement from 'menu.json';
+import "./css/styles.css";
+import * as changeTheme from  "./js/changeTheme.js";
 
-console.log(value);
+console.log(changeTheme);
